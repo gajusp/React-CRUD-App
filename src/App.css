@@ -1,0 +1,35 @@
+.App {
+  margin: 2rem;
+}
+
+.navbar {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem 0.8rem;
+}
+
+.navbar-brand {
+  color: rgb(253, 253, 253);
+}
+
+.nav-item Link {
+  outline: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .nav-item Link {
+    outline: none;
+    font-size: 0.9rem;
+  }
+}
